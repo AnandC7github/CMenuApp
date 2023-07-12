@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
         else {
             Toast.makeText(this,"SMS", Toast.LENGTH_SHORT).show();
         }
-        return true;
+        return false;
     }
 
 }
